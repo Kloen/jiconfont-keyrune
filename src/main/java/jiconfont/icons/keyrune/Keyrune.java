@@ -1,4 +1,4 @@
-package jiconfont.keyrune;
+package jiconfont.icons.keyrune;
 
 import jiconfont.IconCode;
 import jiconfont.IconFont;
