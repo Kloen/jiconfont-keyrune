@@ -4,13 +4,17 @@ jIconFont (https://github.com/jIconFont/jiconfont) implementation of Keyrune (ht
 ## Gradle
 
 ``` 
-repositories {
-    maven {
-        url "https://oss.sonatype.org/content/groups/public"
-    }
-}
-
 dependencies {
     compile 'com.kloenlansfiel.jiconfont:keyrune:1.0.0'
 }
+```
+
+## Maven
+```
+<dependency>
+    <groupId>com.kloenlansfiel.jiconfont</groupId>
+    <artifactId>keyrune</artifactId>
+    <version>1.0.0</version>
+    <type>pom</type>
+</dependency>
 ```
