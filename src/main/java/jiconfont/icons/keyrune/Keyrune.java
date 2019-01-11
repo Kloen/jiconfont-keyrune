@@ -192,6 +192,7 @@ public enum Keyrune implements IconCode {
     /* GUILDS OF RAVNICA BLOCK */
     GRN('\uE94B'),
     GK1('\uE94B'),
+    RNA('\uE959'),
 
     /**
      * COMMAND ZONE
