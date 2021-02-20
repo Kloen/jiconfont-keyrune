@@ -22,10 +22,17 @@ import java.io.InputStream;
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 public enum Keyrune implements IconCode {
+    /**
+     * Core Sets
+     */
     LEA('\uE600'),
+    _1E('\uE947'),
     LEB('\uE601'),
+    _2E('\uE948'),
     _2ED('\uE602'),
+    _2U('\uE949'),
     _3ED('\uE603'),
+    _3E('\uE94A'),
     _4ED('\uE604'),
     PSUM('\uE605'),
     _5ED('\uE606'),
@@ -43,159 +50,104 @@ public enum Keyrune implements IconCode {
     BCORE('\uE612'),
     ORI('\uE697'),
     M19('\uE941'),
-    _1E('\uE947'),
-    _2E('\uE948'),
-    _2U('\uE949'),
-    _3E('\uE94A'),
+    M20('\uE95D'),
+    M21('\uE960'),
+    XDND('\uE972'),
 
     /**
-     * EXPANSIONS
+     * Expansion Sets
      */
-    /* ARTIFACT BLOCK */
     ARN('\uE613'),
     ATQ('\uE614'),
     LEG('\uE615'),
-
-    /* WIZARDS BLOCK */
     DRK('\uE616'),
     FEM('\uE617'),
     HML('\uE618'),
-
-    /* ICE AGE BLOCK */
     ICE('\uE619'),
     ICE2('\uE925'),
     ALL('\uE61A'),
     CSP('\uE61B'),
-
-    /* MIRAGE BLOCK */
     MIR('\uE61C'),
     VIS('\uE61D'),
     WTH('\uE61E'),
-
-    /* TEMPEST BLOCK */
     TMP('\uE61F'),
     STH('\uE620'),
     EXO('\uE621'),
-
-    /* URZA'S BLOCK */
     USG('\uE622'),
     ULG('\uE623'),
     UDS('\uE624'),
-
-    /* MERCADIAN BLOCK */
     MMQ('\uE625'),
     NEM('\uE626'),
-    NMS('\uE626'),
     PCY('\uE627'),
-
-    /* INVASION BLOCK */
     INV('\uE628'),
     PLS('\uE629'),
     APC('\uE62A'),
-
-    /* ODYSSEY BLOCK */
     ODY('\uE62B'),
     TOR('\uE62C'),
     JUD('\uE62D'),
-
-    /* ONSLAUGHT BLOCK */
     ONS('\uE62E'),
     LGN('\uE62F'),
     SCG('\uE630'),
-
-    /* MIRRODIN BLOCK */
     MRD('\uE631'),
     DST('\uE632'),
     _5DN('\uE633'),
-
-    /* KAMIGAWA BLOCK */
     CHK('\uE634'),
     BOK('\uE635'),
     SOK('\uE636'),
-
-    /* RAVNICA BLOCK */
     RAV('\uE637'),
     GPT('\uE638'),
     DIS('\uE639'),
-
-    /* TIME SPIRAL BLOCK */
     TSP('\uE63A'),
     PLC('\uE63B'),
     FUT('\uE63C'),
-
-    /* LORWYN BLOCK */
     LRW('\uE63D'),
     MOR('\uE63E'),
-
-    /* SHADOWMOOR BLOCK */
     SHM('\uE63F'),
     EVE('\uE640'),
-
-    /* ALARA BLOCK */
     ALA('\uE641'),
     CON('\uE642'),
     ARB('\uE643'),
-
-    /* ZENDIKAR BLOCK */
     ZEN('\uE644'),
     WWK('\uE645'),
     ROE('\uE646'),
-
-    /* SCARS BLOCK */
     SOM('\uE647'),
     MBS('\uE648'),
     NPH('\uE649'),
-
-    /* INNISTRAD BLOCK */
     ISD('\uE64A'),
     DKA('\uE64B'),
     AVR('\uE64C'),
-
-    /* RTR BLOCK */
     RTR('\uE64D'),
     GTC('\uE64E'),
     DGM('\uE64F'),
-
-    /* THEROS BLOCK */
     THS('\uE650'),
     BNG('\uE651'),
     JOU('\uE652'),
-
-    /* KHANS BLOCK */
     KTK('\uE653'),
     FRF('\uE654'),
     DTK('\uE693'),
-
-    /* RETURN TO ZENDIKAR BLOCK */
     BFZ('\uE699'),
     OGW('\uE901'),
-
-    /* RETURN TO INNISTRAD BLOCK */
     SOI('\uE902'),
     EMN('\uE90B'),
-
-    /* KALADESH BLOCK */
     KLD('\uE90E'),
     AER('\uE90F'),
-
-    /* AMONKHET BLOCK */
     AKH('\uE914'),
     HOU('\uE924'),
-
-    /* IXALAN BLOCK */
     XLN('\uE92E'),
     RIX('\uE92F'),
-
-    /* DOMINARIA BLOCK */
     DOM('\uE93F'),
-
-    /* GUILDS OF RAVNICA BLOCK */
     GRN('\uE94B'),
-    GK1('\uE94B'),
     RNA('\uE959'),
+    WAR('\uE95A'),
+    ELD('\uE95E'),
+    THB('\uE961'),
+    IKO('\uE962'),
+    ZNR('\uE963'),
+    KHM('\uE974'),
+    STX('\uE975'),
 
     /**
-     * COMMAND ZONE
+     * Command Zone
      */
     VAN('\uE655'),
     HOP('\uE656'),
@@ -218,9 +170,16 @@ public enum Keyrune implements IconCode {
     CM2('\uE940'),
     BBD('\uE942'),
     C18('\uE946'),
+    C19('\uE946'),
+    C20('\uE966'),
+    ZNC('\uE967'),
+    CC1('\uE968'),
+    CMR('\uE969'),
+    CMC('\uE969'),
+    KHC('\uE97D'),
 
     /**
-     * REPRINT
+     * Reprint
      */
     CHR('\uE65E'),
     ATH('\uE65F'),
@@ -236,9 +195,14 @@ public enum Keyrune implements IconCode {
     IMA('\uE935'),
     A25('\uE93D'),
     UMA('\uE958'),
+    MH1('\uE95B'),
+    _2XM('\uE96E'),
+    JMP('\uE96F'),
+    MB1('\uE971'),
+    MH2('\uE97B'),
 
     /**
-     * BEGINNER
+     * Beginner
      */
     POR('\uE664'),
     P02('\uE665'),
@@ -250,7 +214,7 @@ public enum Keyrune implements IconCode {
     W17('\uE923'),
 
     /**
-     * DUEL DECKS
+     * Duel Decks
      */
     EVG('\uE669'),
     DD2('\uE66A'),
@@ -276,7 +240,7 @@ public enum Keyrune implements IconCode {
     DDU('\uE93E'),
 
     /**
-     * FROM THE VAULT
+     * From the Vault
      */
     DRB('\uE678'),
     V09('\uE679'),
@@ -291,7 +255,7 @@ public enum Keyrune implements IconCode {
     V17('\uE939'),
 
     /**
-     * PREMIUM DECK SERIES
+     * Premium Deck Series
      */
     H09('\uE67F'),
     PD2('\uE680'),
@@ -299,17 +263,19 @@ public enum Keyrune implements IconCode {
     MD1('\uE682'),
 
     /**
-     * SIGNATURE SPELLBOOK
+     * Signature Spellbooks
      */
     SS1('\uE944'),
+    SS2('\uE95C'),
+    SS3('\uE96D'),
 
     /**
-     * GLOBAL SERIES
+     * Global Series
      */
     GS1('\uE945'),
 
     /**
-     * GUILD KITS
+     * Guild Kits
      */
     AZORIUS('\uE94E'),
     BOROS('\uE94F'),
@@ -323,12 +289,18 @@ public enum Keyrune implements IconCode {
     SIMIC('\uE957'),
 
     /**
-     * OTHER SUPPLEMENTAL PRODUCTS
+     * Other Supplemental Products
      */
     GNT('\uE94D'),
+    GK1('\uE94B'),
+    GK2('\uE959'),
+    GN2('\uE964'),
+    TSR('\uE976'),
+    XIN3('\uE977'),
+    XIN4('\uE978'),
 
     /**
-     * PROMOTIONAL
+     * Promotional
      */
     PGRU('\uE683'),
     PMTG1('\uE684'),
@@ -359,9 +331,12 @@ public enum Keyrune implements IconCode {
     PARL3('\uE943'),
     HTR('\uE687'),
     MED('\uE94C'),
+    PTG('\uE965'),
+    J20('\uE96A'),
+    ZNE('\uE97A'),
 
     /**
-     * ONLINE
+     * Online
      */
     ME1('\uE68D'),
     ME2('\uE68E'),
@@ -377,16 +352,20 @@ public enum Keyrune implements IconCode {
     XDUELS('\uE91D'),
     XMODS('\uE91E'),
     PZ2('\uE91F'),
+    HA1('\uE96B'),
+    AKR('\uE970'),
+    KLR('\uE97C'),
 
     /**
-     * UN-SERIOUS
+     * Un-Serious
      */
     UGL('\uE691'),
     UNH('\uE692'),
     UST('\uE930'),
+    UND('\uE96C'),
 
     /**
-     * UNOFFICIAL
+     * Unofficial
      */
     XCLE('\uE926'),
     XICE('\uE927'),
