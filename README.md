@@ -5,7 +5,7 @@ jIconFont (https://github.com/jIconFont/jiconfont) implementation of Keyrune (ht
 
 ``` 
 dependencies {
-    compile 'com.kloenlansfiel.jiconfont:keyrune:1.1.0'
+    compile 'com.kloenlansfiel.jiconfont:keyrune:1.2.0'
 }
 ```
 
@@ -14,7 +14,7 @@ dependencies {
 <dependency>
     <groupId>com.kloenlansfiel.jiconfont</groupId>
     <artifactId>keyrune</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <type>pom</type>
 </dependency>
 ```
